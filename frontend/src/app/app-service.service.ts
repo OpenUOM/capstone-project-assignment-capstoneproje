@@ -22,7 +22,7 @@ export class AppServiceService {
   }
 
   getStudentData(){
-    return this.http.get(`/${this.ROOT_URL}/listStudents`)
+    return this.http.get(`/${this.ROOT_URL}/api/listStudents`)
   }
 
   getOneStudentData(payload: Object){
